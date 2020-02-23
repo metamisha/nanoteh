@@ -1,0 +1,491 @@
+nav{
+    min-height: 70px;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+a{
+    font-size: 15px!important;
+}
+.menu{
+
+    height: 550px;
+    background-color: #6c757d;
+}
+span{
+    font-family: 'Roboto Mono', monospace;!important;
+}
+h1{
+    margin-left: 10px;
+    font-size: 29px;
+    font-weight: lighter;
+}
+.left-menu{
+    width: 45%;
+
+}
+.menu{
+    display: flex;
+
+
+}
+.card-promotion{
+    border-radius: 0;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    margin-top: 200px;
+    margin-left: 40px;
+    max-width: 540px;
+    min-width: 600px;
+    height: 400px;
+    font-family: 'Roboto Mono', monospace;!important;
+    display:none ;
+
+}
+#logo_space{
+    text-align: center;
+width: 400px;
+
+
+}
+#logo_photo {
+
+    width: 130px;
+    height:23px;
+}
+
+.nav-text:hover{
+
+}
+
+.nav-text{
+    color: darkslategray!important;
+    font-weight: bold!important;
+    font-family: 'Roboto Mono', monospace;!important;
+    margin-left: 30px ;
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    text-align: center;
+}
+.nav-text,
+.nav-text:hover,
+.nav-text:focus,
+.nav-text:active {
+    color: darkslategray;
+    text-decoration: none;
+}
+.nav-text::after {
+    content: "";
+    position: absolute;
+}
+.box .nav-text::after {
+
+    top: 80%;
+    height: 2px !important;
+    width: 0;
+    left: 0;
+    background-color: sandybrown;
+    transition: 0.7s ease-out all .1s;
+}
+.box:hover .nav-text:after {
+    width: 90%;
+    left: 5%;
+    transition: 0.8s ease all;
+}
+.main-question{
+    margin-left: 45px;
+    margin-top: 80px;
+    color: white!important;
+    font-weight: bold!important;
+    font-family: 'Roboto Mono', monospace;!important;
+    font-size: 10px!important;
+
+
+}
+.cont{
+    width: 125px;
+}
+
+.promote-text{
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;!important;
+    text-align: center;
+    margin-left: 45px;
+    color: white;
+
+}
+.diphis{
+    color: sandybrown;
+}
+.proposition-name{
+    margin-top: 40px;
+
+
+}
+.main-text{
+    margin-top: 30px;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-right: 15px ;
+
+
+}
+#fizlic_header{
+    margin-top: 55px;
+
+
+}
+.social{
+    position: absolute;
+    right: 20px;
+}
+#button_promote{
+    display: none;
+    margin-top: 49px;
+    word-spacing: -2px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.space{
+
+    font-weight: bold!important;
+    font-family: 'Roboto Mono', monospace;!important;
+}
+.space h2{
+    margin-top: 40px;
+}
+.fizlic-card{
+    margin-top: 70px;
+
+}
+.card-img-top{
+    max-height: 250px;
+
+}
+.card-deck{
+    width: 90%;
+    text-align: center;
+}
+.prod-card{
+    margin-top: 10px;
+    opacity: 0;
+}
+.text-test{
+    opacity:0;
+}
+.name{
+    font-weight: bolder;
+}
+.button-move-to-prod{
+    font-size: 15px;
+
+}
+#fizlic_header{
+    word-spacing: -8px;
+}
+h5{
+    word-spacing: -6px;
+}
+#about_us{
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.contacts {
+
+    border: 0;
+
+    font-size: 27px;
+    height: 100%;
+
+}
+.contacts:hover{
+
+}
+.card-biz-prod{
+    border: 1px solid #5a6268;
+    margin-top: 5px;
+    height: 500px!important;
+    width: 100%;
+
+}
+.card-image-biz{
+    width: 150px!important;
+    border: none;
+    height: 100%!important;
+}
+.card-image{
+    width: 50px!important;
+    height: 50px!important;
+    object-fit: contain;
+}
+
+#vishnu-button {
+    display: flex!important;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    width: 250px;
+    height: 40px;
+    background-color: #6c757d;
+    z-index: 100;
+    font-size: 16px;
+    border: 1px solid #6c757d;
+    color: white;
+    border-radius: 0;
+
+}
+#vishnu-button {
+    right: 20px ;
+    bottom: 0!important;
+}
+.fa-viber{
+    color: white!important;
+}
+.viberButton:hover{
+   background-color: rgba(102, 92, 172,0.5);
+    border-radius: 0;
+}
+.name-holder{
+    background-image: url("../images/prodsvar.png");
+    height: 125px;
+    display: table!important;
+    width: 100%!important;
+    text-align: center!important;
+
+}
+.product{
+    border-radius: 0;
+}
+h1{
+    text-decoration: none;
+}
+h1:hover{
+    text-decoration: none;
+
+}
+.card-body{
+    padding: 0.3rem;
+}
+button{
+    border-radius: 0!important;
+
+
+}
+.card-biz-body{
+    border: none;
+}
+@media screen and (max-width: 1260px) {
+    .nav-text{
+        color: darkslategray!important;
+        font-weight: bold!important;
+        font-family: 'Roboto Mono', monospace;!important;
+        margin-left: 30px ;
+        position: relative;
+        display: inline-block;
+        font-size: 14px!important;
+        text-align: center;
+    }
+    .navbar-brand{
+        width: 20%!important;
+    }
+    .card-promotion{
+        margin-right: 15px!important;
+    }
+    .card-image{
+        width: 100px!important;
+        height: 100px!important;
+    }
+}
+@media screen and (max-width: 1091px) {
+    .nav-text{
+        color: darkslategray!important;
+        font-weight: bold!important;
+        font-family: 'Roboto Mono', monospace;!important;
+        margin-left: 30px ;
+        position: relative;
+        display: inline-block;
+        font-size: 14px!important;
+        text-align: center;
+    }
+    .navbar-brand{
+        width: 20%!important;
+    }
+    .card-promotion{
+        margin-right: 15px!important;
+    }
+    #fizlic_header{
+        margin-top:50px!important;
+    }
+    .card-image{
+        width: 100px!important;
+        height: 100px!important;
+    }
+
+}
+@media screen and (max-width: 990px) {
+    .nav-text{
+        color: darkslategray!important;
+        font-weight: bold!important;
+        font-family: 'Roboto Mono', monospace;!important;
+        margin-left: 30px ;
+        position: relative;
+        display: inline-block;
+        font-size: 14px!important;
+        text-align: center;
+    }
+    .navbar-brand{
+        width: 20%!important;
+    }
+    .card-promotion{
+        margin-right: 15px!important;
+    }
+    #fizlic_header{
+        margin-top:50px!important;
+    }
+    .contacts{
+        display: none;
+    }
+    .card-image{
+        width: 100px!important;
+        height: 100px!important;
+    }
+}
+@media screen and (max-width: 885px) {
+    .nav-text{
+        color: darkslategray!important;
+        font-weight: bold!important;
+        font-family: 'Roboto Mono', monospace;!important;
+        margin-left: 30px ;
+        position: relative;
+        display: inline-block;
+        font-size: 14px!important;
+        text-align: center;
+    }
+    .navbar-brand{
+        width: 20%!important;
+    }
+    .card-promotion{
+        margin-right: 15px!important;
+    }
+    #fizlic_header{
+        margin-top:50px!important;
+    }
+    .contacts{
+        display: none;
+    }
+    .card-image-biz{
+        width: 200px!important;
+        height: 200px!important;
+    }
+    .card-image{
+        width: 200px!important;
+        height: 200px!important;
+    }
+
+
+}
+@media screen and (max-width: 936px) {
+   .right-content{
+       display: none;
+   }
+    .left-menu{
+        width: 100% !important;
+
+    }
+    .menu{
+        height: 200px!important;
+    }
+
+}
+@media screen and (max-width: 616px) {
+    .card-biz-prod{
+        display: flow-root!important;
+        height: 475px!important;
+        width: 100%;
+        position: relative;
+        padding-right: 15px;
+        padding-left: 15px;
+
+
+    }
+    .card-image-biz{
+        text-align: center!important;
+        width: 100%!important;
+        margin: 0!important;
+        margin-left: 25%!important;
+
+    }
+
+    .card-biz-body{
+        width: 100%!important;
+        display: table-cell;!important;
+    }
+        #business_header{
+            text-align: center!important;
+        }
+    .nav-text{
+        color: darkslategray!important;
+        font-weight: bold!important;
+        font-family: 'Roboto Mono', monospace;!important;
+        margin-left: 30px ;
+        position: relative;
+        display: inline-block;
+        font-size: 14px!important;
+        text-align: center;
+    }
+    .navbar-brand{
+        width: 20%!important;
+    }
+    .card-promotion{
+        margin-right: 15px!important;
+    }
+    #fizlic_header{
+        margin-top:30px!important;
+        text-align: center!important;
+        width: 100%!important;
+    }
+    .card-fiz{
+        margin-top: 50px!important;
+    }
+    .contacts{
+        display: none;
+    }
+    .card-image{
+        width: 100px!important;
+        height: 100px!important;
+    }
+    .left-content-fiz{
+        width: 100%!important;
+    }
+    #offer{
+        text-align: center!important;
+        margin: 0;
+        padding: 0;
+
+    }
+    .promote-text{
+        margin: 0;
+    }
+    .main-question{
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px!important;
+        font-size: 10px!important;
+    }
+    #vishnu-button{
+        width: 100%!important;
+        margin: 0!important;
+        padding: 0!important;
+        margin-left: 2px;
+        right: 0 ;
+    }
+    .cont{
+        width: 50vw;
+    }
+
+}
