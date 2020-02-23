@@ -34,7 +34,7 @@ out += '<div class="product-wrap  col-sm-12 col-md-6 col-lg-4  d-flex align-item
                 '<div class="price">';
             out += '</div> <div class="card-footer" style="border-top: 1px solid #5a6268">';
             out +=
-                '<a  href="productpage.html" style="text-decoration: none"><button  type="button" class="btn btn-outline-dark btn-sm details"  style="border-radius: 0" data-art="' + key + '" > ' +
+                '<a  href="" style="text-decoration: none"><button  type="button" class="btn btn-outline-dark btn-sm details"  style="border-radius: 0" data-art="' + key + '" > ' +
                 ' Подробнее ' +
                 '</button></a>' +
                 '</div>' +
