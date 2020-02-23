@@ -69,12 +69,12 @@ function loadBizGoods() {
                ' <h4 class="card-title">'+data2[key2]['name']+'</h4>' +
                ' <p class="card-text">'+data2[key2]['description']+'</p>' +
                '<p class="card-text">Позвоните, или напишите нам, чтобы обсудить детали.</p>'+
-               '<div style="display: flex"> <a class="btn btn-outline-dark showNum" href="tel:+093-136-8037"  style="border-radius: 0; width: 70%"> Позвонить </a>' +
+               '<div style="display: flex"> <a class="btn btn-outline-dark showNum" href="tel:063-798-7841"  style="border-radius: 0; width: 70%"> Позвонить </a>' +
                '<a href="tg://resolve?domain=nano_tech_support"><button class="btn btn-info" data-toggle="modal" data-target="#exampleModal"><i class="fab fa-telegram-plane"></i></button></a>' +
                '<a href="mailto:nanoteh8570@gmail.com"><button class="btn btn-outline-danger number" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-envelope"></i></button></a>' +
                '<a href="viber://chat?number=+380637987841"><button class="btn btn-light viberButton" data-toggle="modal" data-target="#exampleModal" style=" background-color:#665CAC;border-radius: 0; border: 1px solid #6f42c1"><i class="fab fa-viber"></i></button></a> ' +
                '</div>' +
-               '<h3 style="margin-left: 5px"><a href="tel:+063-798-7841" style="text-align: center; font-size: 20px">+063-798-7841</a></h3>' +
+               '<h3 style="margin-left: 5px"><a href="tel:063-798-7841" style="text-align: center; font-size: 20px">+063-798-7841</a></h3>' +
                '     </div>' +
                '</div>';
         }
