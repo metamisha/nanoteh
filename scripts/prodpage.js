@@ -34,7 +34,7 @@ function loadProductPage() {
         '<a href="viber://chat?number=+380637987841"><button data-toggle="modal" data-target="#exampleModal" class="btn btn-light viberButton"  style="margin: 5px;border:1px solid #5a6268; background-color:#665CAC; "><i class="fab fa-viber"></i></button></a>' +
 
         '<div class="phonenumber" style="display: none">' +
-        '<h2><a href="tel:+063-798-7841" style="text-align: center; font-size: 20px">+063-798-7841</a></h2>' +
+        '<h2><a href="tel:063-798-7841" style="text-align: center; font-size: 20px">063-798-7841</a></h2>' +
         '</div>' +
         '</div>' +
         '<hr>';
@@ -59,7 +59,7 @@ function loadProductPage() {
             '</div>' +
             '<hr>';
     out += '<h6 class="text-sm-left" style="margin-left: 0.375rem">Не нашли желанного дизайна? Не проблема! Позвоните нам, мы обязательно реализуем то, что вы желаете!</h6><hr>';
-    out += '<span class=" text-sm-left" style="margin-left: 0.375rem">' + data[arrt]['fullDescription'] + '</span></h4></div>';
+    out += '<h6 class=" text-sm-left" style="margin-left:10px">' + data[arrt]['fullDescription'] + '</h6></h4></div>';
 
 
     out += '</div><hr>' +
