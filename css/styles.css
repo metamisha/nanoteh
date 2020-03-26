@@ -10,7 +10,7 @@ a{
 .menu{
 
     height: 550px;
-    background-color: #6c757d;
+    background-color: #15233d;
 }
 span{
     font-family: 'Roboto Mono', monospace;!important;
@@ -41,6 +41,7 @@ h1{
     height: 400px;
     font-family: 'Roboto Mono', monospace;!important;
     display:none ;
+    background-color: #15233d!important;
 
 }
 #logo_space{
@@ -54,13 +55,16 @@ width: 400px;
     width: 130px;
     height:23px;
 }
+.services-text:hover{
+
+}
 
 .nav-text:hover{
 
 }
 
 .nav-text{
-    color: darkslategray!important;
+    color: #15233d!important;
     font-weight: bold!important;
     font-family: 'Roboto Mono', monospace;!important;
     margin-left: 30px ;
@@ -72,15 +76,36 @@ width: 400px;
 .nav-text,
 .nav-text:hover,
 .nav-text:focus,
-.nav-text:active {
-    color: darkslategray;
+.nav-text:active{
+    color: #15233d;
     text-decoration: none;
 }
-.nav-text::after {
+.services-text{
+
+    font-weight: bold!important;
+    font-family: 'Roboto Mono', monospace;!important;
+    margin-left: 30px ;
+    position: relative;
+
+
+    text-align: center;
+}
+.services-text,
+.services-text:hover,
+.services-text:focus,
+.services-text:active{
+    color: white;
+    text-decoration: none;
+}
+.nav-text::after{
     content: "";
     position: absolute;
 }
-.box .nav-text::after {
+.services-text::after{
+    content: "";
+    position: absolute;
+}
+.box .nav-text::after{
 
     top: 80%;
     height: 2px !important;
@@ -89,10 +114,24 @@ width: 400px;
     background-color: sandybrown;
     transition: 0.7s ease-out all .1s;
 }
+.services .services-text::after{
+    top: 100%;
+    height: 4px !important;
+    width: 0;
+    left: 0;
+    background-color: sandybrown;
+    transition: 2s ease-out all .1s;
+}
 .box:hover .nav-text:after {
     width: 90%;
     left: 5%;
     transition: 0.8s ease all;
+}
+.services:hover .services-text:after{
+    text-align: center;
+    width: 34.2%;
+    left: 32.7%;
+    transition: 2s ease all;
 }
 .main-question{
     margin-left: 45px;
@@ -206,7 +245,7 @@ h5{
 
 }
 .card-biz-prod{
-    border: 1px solid #5a6268;
+    border: 2px solid #15233d!important;
     margin-top: 5px;
     height: 500px!important;
     width: 100%;
@@ -231,10 +270,10 @@ h5{
     cursor: pointer;
     width: 250px;
     height: 40px;
-    background-color: #6c757d;
+    background-color: #15233d;
     z-index: 100;
     font-size: 16px;
-    border: 1px solid #6c757d;
+    border: 1px solid #15233d;
     color: white;
     border-radius: 0;
 
@@ -281,7 +320,7 @@ button{
 }
 @media screen and (max-width: 1260px) {
     .nav-text{
-        color: darkslategray!important;
+        color: #15233d!important;
         font-weight: bold!important;
         font-family: 'Roboto Mono', monospace;!important;
         margin-left: 30px ;
@@ -303,7 +342,7 @@ button{
 }
 @media screen and (max-width: 1091px) {
     .nav-text{
-        color: darkslategray!important;
+        color: #15233d!important;
         font-weight: bold!important;
         font-family: 'Roboto Mono', monospace;!important;
         margin-left: 30px ;
@@ -329,7 +368,7 @@ button{
 }
 @media screen and (max-width: 990px) {
     .nav-text{
-        color: darkslategray!important;
+        color: #15233d!important;
         font-weight: bold!important;
         font-family: 'Roboto Mono', monospace;!important;
         margin-left: 30px ;
@@ -357,7 +396,7 @@ button{
 }
 @media screen and (max-width: 885px) {
     .nav-text{
-        color: darkslategray!important;
+        color: #15233d!important;
         font-weight: bold!important;
         font-family: 'Roboto Mono', monospace;!important;
         margin-left: 30px ;
@@ -429,7 +468,7 @@ button{
             text-align: center!important;
         }
     .nav-text{
-        color: darkslategray!important;
+        color: #15233d!important;
         font-weight: bold!important;
         font-family: 'Roboto Mono', monospace;!important;
         margin-left: 30px ;
@@ -491,4 +530,91 @@ button{
 }
 h6{
     font-family: 'Roboto Mono', monospace;
+}
+.services{
+
+    background-color: #15233d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.nano-icon{
+    color: sandybrown;
+    transition: .3s ease-in-out;
+    font-size: 45px;
+}
+.nano-icon-container{
+    text-align: center;
+    line-height: 100px;
+}
+.nano-service-header{
+    color: sandybrown;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nano-col-header{
+    line-height: 50px;
+}
+.nano-service-footer{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.nano-container{
+    margin-top: 20px;
+}
+.nano-container:hover #hammer{
+    transform: rotate(45deg);
+}
+.nano-container:hover #hat{
+    transform: scale(1.4);
+}
+.nano-container:hover #key{
+    transform: rotateZ(-30deg) translateX(5px);
+}
+.card-image{
+    max-width: 70%!important;
+    max-height: 350px!important;
+}
+.nano-us-header{
+    color: #15233d;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nano-us-footer{
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.nano-icon-us-container{
+    text-align: center;
+    line-height: 100px;
+}
+.nano-us-icon{
+     color: #15233d;
+     transition: .3s ease-in-out;
+     font-size: 45px;
+ }
+.nano-us-container:hover #handshake{
+    transform: scale(1.4);
+}
+.nano-us-container:hover #timer{
+    transform: rotate(360deg);
+}
+.nano-us-container:hover #handshake{
+    transform: scale(1.4);
+}
+.nano-us-container:hover #warehouse{
+    transform: scale(1.4);
+}
+.nano-us-container:hover #comments{
+    transform: scale(1.4);
+}
+.nano-us-container:hover #builds{
+    transform: scale(1.4);
+}
+.footer-copyright{
+    max-height: 100px;
+
 }

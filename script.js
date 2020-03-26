@@ -26,13 +26,13 @@ var out = '';
 for (var key in data) {
 out += '<div class="product-wrap  col-sm-12 col-md-6 col-lg-4  d-flex align-items-stretch prod-card">' +
 '<div class="product">' +
-'<div class="card h-100 bg-white"  style="border: 1px solid #5a6268; border-radius: 0">' +
+'<div class="card h-100 bg-white"  style="border: 1px solid #15233d; border-radius: 0">' +
     '<div class="card-body">' +
                 '<img class="card-img-top" src="' + data[key]['image0'] + '"  alt="Card image cap" style="height: 180px; width: 180px" >' +
                 '<div class="name" id="name"><h5 class="text-header" style="font-weight: bold"> ' + data[key]['name'] + '</h5></div>' +
                 '<div class="descr" ><h6 style="word-spacing: -5px; font-size: 15px">' + data[key]['description'] + '</h6></div></div>' +
                 '<div class="price">';
-            out += '</div> <div class="card-footer" style="border-top: 1px solid #5a6268">';
+            out += '</div> <div class="card-footer" style="border-top: 1px solid #15233d">';
             out +=
                 '<a  href="productpage.html" style="text-decoration: none"><button  type="button" class="btn btn-outline-dark btn-sm details"  style="border-radius: 0" data-art="' + key + '" > ' +
                 ' Подробнее ' +
@@ -60,9 +60,9 @@ function loadBizGoods() {
         var outB = '';
         for (var key2 in data2) {
            outB+='<div class=" row no-gutters d-flex flex-wrap align-items-center card-biz-prod" ' +
-               '<div class="card-body col-12" style=" border: 1px solid #5a6268; margin-top: 5px; height: 400px; width: 100%">' +
-               '<div class="card col-6  card-img-overlay d-flex align-items-center card-image-biz"  >' +
-               '<img  class="card-img " src="'+data2[key2]['image0']+'" alt="" >' +
+               '<div class="card-body col-12" style=" border: 1px solid #15233d; margin-top: 5px; height: 400px; width: 100%">' +
+               '<div class="card col-6 card-image-biz"  style=" vertical-align: middle;  object-fit: contain; text-align: center">' +
+               '<img  class="card-img " src="'+data2[key2]['image0']+'" alt="" style="position: absolute; top: 0; bottom: 0; margin: auto; max-height: 70%; max-width: 70%" >' +
                '</div>' +
                '' +
                '<div class="card col-6 card-biz-body" >' +
